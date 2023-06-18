@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Inspiration&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./stylesheet.css">
+  <script type="text/javascript" src="./form.js" defer></script>
+</head>
+<body class="bg-gray-100">
+  <div class="flex-container">
+    <div class="flex-image">
+      <div class="background">
+        <!-- Image -->
+        <img src="./images/marius-masalar-rPOmLGwai2w-unsplash.jpg" alt="Sheet music" class="image-background">
+        <div class="logo">
+          <img src="./images/podcast.png" alt="microphone" class="image-logo">
+        </div>
+        <div class="image-text">
+          Photo by <a href="https://unsplash.com/ko/@marius?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marius Masalar</a> on <a href="https://unsplash.com/images/things/music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </div>
+      </div>
+    </div>
+    <div class="form-section">
+      <div class="paragraph-header">
+        <p>This is not a real online service! You know you need something like this
+          in your life to help you realize your deepest dreams. 
+        </p>
+        <p>Sign up <span>now</span> to get started.</p>
+        <p class="paragraph-action-call">You <span>know</span> you want to.</p>
+      </div>
+      <div class="form-group">
+        <div>
+          <h2>Let's do this!</h2>
+        </div>
+        <form action="" method="post" class="user-signup" autocomplete="on">
+          <div class="form-container">
+            <div class="form-column-one">
+              <div class="form-row">
+                <label for="firstname">FIRST NAME</label>
+                <input type="text" name="firstname" id="firstname">
+              </div>
+              <div class="form-row">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" placeholder="joe@example.com" autocomplete="email">
+              </div>
+              <div class="form-row">
+                <label for="psw">PASSWORD</label>
+                <input type="password" name="psw" id="psw" required>
+              </div>
+            </div>
+
+           <div class="form-column-two">
+              <div class="form-row">
+                <label for="lastname">LAST NAME</label>
+                <input type="text" name="lastname" id="lastname">
+              </div>
+              <div class="form-row">
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" name="phone" id="phone" autocomplete="mobile">
+              </div>
+              <div class="form-row">
+                <label for="confirm-psw">CONFIRM PASSWORD</label>
+                <input type="password" name="confirm-password" id="confirm-psw" required>
+              </div>
+            </div>
+          </div>
+        
+          <div class="button-row">
+            <button onclick="validatePassword()" class="submit-button" id="submitButton">Create Account</button>
+          </div>
+        </form>
+          <div class="log-in">
+            <p>Already have an account? <span class="log-in-link">Login</span> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
