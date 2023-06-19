@@ -8,23 +8,23 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Inspiration&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./stylesheet.css">
+  <link href="./css/stylesheet.css" rel="stylesheet">
   <script type="text/javascript" src="./form.js" defer></script>
 </head>
-<body class="bg-gray-100">
-  <div class="flex-container">
-    <div class="flex-image">
-      <div class="background">
-        <!-- Image -->
-        <img src="./images/marius-masalar-rPOmLGwai2w-unsplash.jpg" alt="Sheet music" class="image-background">
-        <div class="logo">
-          <img src="./images/podcast.png" alt="microphone" class="image-logo">
+<body class="bg-gray-200">
+  <div class="flex flex-row">
+    <div class="bg-black w-72"></div>
+      <div class="flex flex-col h-screen">
+        <div class="w-80 h-auto">
+          <img class="shadow-xl h-screen object-cover" src="./images/marius-masalar-rPOmLGwai2w-unsplash.jpg" alt="Sheet music" >
         </div>
-        <div class="image-text">
+        <div class="bg-gray-200 opacity-60 w-80 h-32 absolute bottom-3/4">
+          <img class="mx-auto w-28 mt-2 object-cover" src="./images/podcast.png" alt="microphone">
+        </div>
+        <div class="w-80 text-gray-800 ml-4 absolute bottom-24">
           Photo by <a href="https://unsplash.com/ko/@marius?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marius Masalar</a> on <a href="https://unsplash.com/images/things/music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         </div>
       </div>
-    </div>
     <div class="form-section">
       <div class="paragraph-header">
         <p>This is not a real online service! You know you need something like this
@@ -79,6 +79,7 @@
         </div>
       </div>
     </div>
+    <div class="bg-black w-72"></div>
   </div>
 
 </body>
