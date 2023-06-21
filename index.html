@@ -48,30 +48,30 @@
             <div>
               <div class="flex flex-col ml-3 m-1">
                 <label class="text-xs font-normal text-gray-500" for="firstname">FIRST NAME</label>
-                <input class="text-sm mb-3 mr-3 bg-gray-50 border p-1 border-gray-500 rounded-md focus:ring-blue-500 focus:border-blue-500" type="text" name="firstname" id="firstname">
+                <input class="text-sm mb-3 mr-3 bg-gray-50 border p-1 border-gray-500 rounded-md focus:ring-blue-500 focus:outline-none focus:ring-1" type="text" name="firstname" id="firstname">
               </div>
               <div class="flex flex-col ml-3 m-1">
                 <label class="text-xs font-medium text-gray-500" for="firstname" for="email">EMAIL</label>
-                <input class="text-sm mb-3 mr-3 bg-gray-50 border p-1 border-gray-500 rounded-md focus:ring-blue-500 focus:border-blue-500" type="email" name="email" id="email" placeholder="joe@example.com" autocomplete="email">
+                <input class="text-sm mb-3 mr-3 bg-gray-50 border p-1 border-gray-500 rounded-md invalid:border-red-400 invalid:text-red-600 focus:ring-blue-400 focus:outline-none focus:ring-1" type="email" name="email" id="email" placeholder="joe@example.com" autocomplete="email">
               </div>
               <div class="flex flex-col ml-3 m-1">
                 <label class="text-xs font-medium text-gray-500" for="firstname" for="psw">PASSWORD</label>
-                <input class="text-sm mb-3 mr-3 bg-gray-50 border p-1 border-gray-500 rounded-md focus:ring-blue-500 focus:border-blue-500" type="password" name="psw" id="psw" required>
+                <input class="text-sm mb-3 mr-3 bg-gray-50 border p-1 border-gray-500 rounded-md focus:ring-blue-500 focus:outline-none focus:ring-1" type="password" name="psw" id="psw" required>
               </div>
             </div>
             <!-- Right side of form -->
             <div>
               <div class="flex flex-col ml-3 m-1">
                 <label class="text-xs font-medium text-gray-500" for="firstname" for="lastname">LAST NAME</label>
-                <input class="text-sm mb-3 mr-3 bg-gray-50 border p-1 border-gray-500 rounded-md focus:ring-blue-500 focus:border-blue-500" type="text" name="lastname" id="lastname">
+                <input class="text-sm mb-3 mr-3 bg-gray-50 border p-1 border-gray-500 rounded-md focus:ring-blue-500 focus:outline-none focus:ring-1" type="text" name="lastname" id="lastname">
               </div>
               <div class="flex flex-col ml-3 m-1">
                 <label class="text-xs font-medium text-gray-500" for="firstname" for="phone">PHONE NUMBER</label>
-                <input class="text-sm mb-3 mr-3 bg-gray-50 border p-1 border-gray-500 rounded-md focus:ring-blue-500 focus:border-blue-500" type="tel" name="phone" id="phone" autocomplete="mobile">
+                <input class="text-sm mb-3 mr-3 bg-gray-50 border p-1 border-gray-500 rounded-md focus:ring-blue-500 focus:outline-none focus:ring-1" type="tel" name="phone" id="phone" autocomplete="mobile">
               </div>
               <div class="flex flex-col ml-3 mb-3 m-1">
                 <label class="text-xs font-medium text-gray-500" for="firstname" for="confirm-psw">CONFIRM PASSWORD</label>
-                <input class="text-sm mb-3 mr-3 bg-gray-50 border p-1 border-gray-500 rounded-md focus:ring-blue-500 focus:border-blue-500" type="password" name="confirm-password" id="confirm-psw" required>
+                <input class="text-sm mb-3 mr-3 bg-gray-50 border p-1 border-gray-500 rounded-md focus:ring-blue-500 focus:outline-none focus:ring-1" type="password" name="confirm-password" id="confirm-psw" required>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@
       </div>
     <!-- Submit button -->
     <div class="ml-3 mb-2 mt-5">
-      <button onclick="validatePassword()" class="text-sm p-3 rounded-md text-white bg-black hover:bg-slate-600" id="submitButton">Create Account</button>
+      <button onclick="validatePassword()" class="text-sm p-3 rounded-md text-white bg-black hover:bg-slate-600 border-slate-600" id="submitButton">Create Account</button>
     </div>
     <!-- Already have an account? -->    
     <div class="ml-3 mb-3">
